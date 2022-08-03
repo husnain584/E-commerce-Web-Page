@@ -1,0 +1,372 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.secFirstone{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 400px;
+}
+span i{
+    background-color:orange;
+    padding: 7px;
+    color: white;
+}
+.searchBar{
+    display: flex;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding-left: 160px;
+
+}
+.nav-bar{
+    background: orange;
+
+}
+.nav-bar ul li{
+    list-style: none;
+    border: 1px solid rgb(243, 149, 34);
+    margin-left: -5px;
+    
+}
+.secTwo{
+    background: navy;
+    height: 50vh;
+    margin-top: -16px;
+}
+.slider{
+    
+}
+.slider{
+    width: 940px;
+    height: 300px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    border-radius: 5px;
+    background: rgb(238, 238, 238)
+
+}
+.sliderF{
+    width: 900px;
+    height: 270px;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    border-radius: 5px;
+    background: yellow;
+    background: rgb(148, 141, 141);
+}
+.sliderContent{
+    position: absolute;
+    height: 25vh;
+    width: 20vw;
+    background:rgb(43, 41, 68);
+    overflow: hidden;
+    top: 23%;
+    right: 10%;
+}
+.sliderContent p{
+    font-size: 0.7rem;
+    color: white;
+}
+.sliderContent h1{
+    color: rgb(192, 147, 24);
+}
+.btn1{
+    position: absolute;
+    top: 50%;
+}
+.btn2{
+    position: absolute;
+    top: 50%; 
+    right: 0%;
+}
+.buttons{
+    background: whitesmoke;
+    border:1px solid white
+}
+.orderbtn{
+    background: rgb(250, 250, 129);
+    border-radius: 5px;
+    border: none;
+    padding: 1px 10px 1px 10px
+}
+.bttns{
+    padding: 0 30px 0 30px;
+    background: rgb(250, 250, 129);
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    
+}
+.lines{
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    display: flex;
+    gap: 10px;
+}
+.line1{
+    height: 2px;
+    width: 60px;
+    background:rgb(36, 36, 105);
+    border-radius: 3px;
+}
+.line2{
+    height: 2px;
+    width: 60px;
+    background:rgb(192, 147, 24);
+    border-radius: 3px;
+}
+.line3{
+    height: 2px;
+    width: 60px;
+    background:rgb(36, 36, 105);
+    border-radius: 3px;
+}
+.line4{
+    height: 2px;
+    width: 60px;
+    background:rgb(36, 36, 105);
+    border-radius: 3px;
+}
+.hed{
+    
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.hed2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hed2 span{
+    
+        border: 1px solid blue;
+        padding: 3px;
+        color: white;
+        background: blue;
+        border-top-right-radius: 10px;
+    
+}
+.hed span{
+    border: 1px solid blue;
+    padding: 3px;
+    color: white;
+    background: blue;
+    border-top-right-radius: 10px;
+}
+hr{
+    outline-style:dotted;
+    margin-top: 2px;
+    width: 85%;
+}
+.section2{
+    width: 75vw;
+    height: 30vh;
+    background:white;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+
+}
+.section3{
+    width: 75vw;
+    height: 30vh;
+    background:white;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+
+}
+.section4{
+    width: 75vw;
+    height: 22vh;
+    background:white;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+
+}
+.section5{
+    width: 75vw;
+    height: 40vh;
+    background:white;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+.section6{
+    height: 10vh;
+    width: 75vw;
+    margin-left: 150px;
+    margin-top: 40px;
+    gap: 8px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.section7{
+    width: 75vw;
+    height: 35vh;
+    background:white;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 2px solid rgb(230, 221, 221) ;
+    
+}
+.section8{
+    height: 20vh;
+    width: 75vw;
+    margin-left: 150px;
+    margin-top: 30px;
+    gap: 8px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(230, 221, 221);
+}
+.same{
+    height: 30vh;
+    width: 30vw;
+    background: white;
+   border: 1px solid rgb(221, 210, 210);
+
+}
+.same2{
+    height: 30vh;
+    width: 30vw;
+    background: white;
+    border: none;
+}
+.same3{
+    height: 40vh;
+    width: 40vw;
+    background: rgb(57, 55, 185);
+    border: none;
+    color: white;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      overflow: hidden;
+}
+.btnns{
+    display: flex;
+    gap: 5px;
+    
+}
+ .diff{
+    position: relative;
+    top: 5%;
+    left: 40%;
+    background: rgb(240, 229, 229);
+    padding: 0 7px 0 3px;
+}
+.First{
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 5px;
+}
+    
+.Second{
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    padding: 5px;
+}
+.hedaing4{
+    width: 482px;
+    display: flex;
+    justify-content: center;
+    background: orange;
+    margin-top: -20px;
+    color: black;
+    font-weight: bold;
+}
+.seconddiv{
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 90px;
+    font-weight: bold;
+}
+.thirddiv{
+    display: flex;
+    background: rgb(98, 96, 226);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 90px;
+
+}
+.pic{
+    display: flex;
+    gap: 10px;
+}
+.picss{
+    width: 157vh;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background:rgb(98, 96, 226) ;
+    color: white;
+}
+.footter{
+    display: flex;
+    width: 75vw;
+    height: 40vh;  
+    margin-left: 150px;
+    margin-top: 30px;
+    
+    gap: 60px;
+    justify-content: center;
+
+}
+.btnfoot1{
+background: rgb(6, 6, 109);
+padding: 3px 20px 3px 20px;
+color: white;
+}
+.btnfoot1{
+    gap: 20px;
+    margin-top: 30px;
+}
